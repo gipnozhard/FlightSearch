@@ -1,26 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu
-    xmlns:tools="http://schemas.android.com/tools"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:title="Авиабилеты"
-        android:id="@+id/air_tickets"/>
+        android:id="@+id/air_tickets"
+        android:icon="@drawable/plane" />
 
     <item
         android:title="Отели"
-        android:id="@+id/hotels"/>
+        android:id="@+id/hotels"
+        android:icon="@drawable/hotels" />
 
     <item
         android:title="Короче"
-        android:id="@+id/other"/>
+        android:id="@+id/other"
+        android:icon="@drawable/other" />
 
     <item
         android:title="Подписки"
-        android:id="@+id/subscriptions"/>
+        android:id="@+id/subscriptions"
+        android:icon="@drawable/subscriptions" />
 
     <item
         android:title="Профиль"
-        android:id="@+id/profile"/>
+        android:id="@+id/profile"
+        android:icon="@drawable/profile" />
 
 </menu>
